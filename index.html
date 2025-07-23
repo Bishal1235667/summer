@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grid Layout</title>
+  <link rel="stylesheet" href="grid-style.css" />
+</head>
+<body>
+  <div class="grid-container">
+    <div class="item navbar">Navbar</div>
+    <div class="item header" id="header">Header</div>
+    <div class="item sidebar">Sidebar</div>
+    <div class="item main">Main Content</div>
+    <div class="item footer">Footer</div>
+  </div>
+    <script >
+        const buttons = document.getElementById('header');
+        function showMessage() {
+            document.getElementById('message').textContent = 'u clicked the header!';
+
+        }
+        button.addEventListener('click', showMessage);
+    </script>
+</body>
+</html>
